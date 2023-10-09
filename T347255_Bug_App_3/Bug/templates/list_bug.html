@@ -1,0 +1,6 @@
+<ul>
+    {% for bug in bugs %}
+        <li><a href="{% url 'bug:bug_detail' bug.id %}">{{ bug.title }}</a></li>
+    {% endfor %}
+</ul>
+<a href="{% url 'bug:bug_register' %}">Register a New Bug</a>

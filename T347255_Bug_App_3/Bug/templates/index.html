@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Welcome to the Bug Index</h1>
+
+  {% if bugs %}
+    <ul>
+      {% for bug in bugs %}
+        <li><a href="{% url 'view_bug' bug.id %}">{{ bug.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No bugs are available.</p>
+  {% endif %}
+{% endblock %}
