@@ -11,10 +11,14 @@ Commit your Django project to GitHub and send us a link to your project (by emai
 # OBSERVATIONS
 1. Most of the tasks were done from the command line, using the guide in the tutorial link of the task page.
 2. For python script writing (editing the Python files), such as creating a model call 'Bug', I used VS Code.
+3. 
   ![Image](https://github.com/PaulaGweke/Outreachy_Contributions/blob/main/T347253/django_task1a.png)
+
 4. I created a URL and was able to display my welcome message
-   ![Image]https://github.com/PaulaGweke/Outreachy_Contributions/blob/main/T347253/django_task1b.png
-5. The app created can be used for `Tracking` , `Project Management` , `Learning` etc.
-6. The app appears to bear some similarity with Jira (although Jira runs on JS and not python).
-7. I hope I get the chance of being selected for this internship so as to build my use and knowledge of platforms like this. 
+5. 
+   ![Image](https://github.com/PaulaGweke/Outreachy_Contributions/blob/main/T347253/django_task1b.png)
+   
+7. The app created can be used for `Tracking` , `Project Management` , `Learning` etc.
+8. The app appears to bear some similarity with Jira (although Jira runs on JS and not python).
+9. I hope I get the chance of being selected for this internship so as to build my use and knowledge of platforms like this. 
 
