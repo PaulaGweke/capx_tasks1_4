@@ -1,0 +1,6 @@
+<h1>{{ bug.title }}</h1>
+<p>{{ bug.description }}</p>
+<p>Type: {{ bug.bug_type }}</p>
+<p>Report Date: {{ bug.report_date }}</p>
+<p>Status: {{ bug.status }}</p>
+<a href="{% url 'bug:list_bug' %}">Back to Bug List</a>
